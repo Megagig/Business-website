@@ -108,3 +108,125 @@ font-family: Arial, Helvetica, sans-serif;
 letter-spacing: 1.2px;
 line-height: 30px;
 }
+.cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+.cn:hover{
+background: white;
+
+}
+.form{
+    width: 250px;
+    height: 280px;
+    background: linear-gradient(to top rgba(0,0,0,0.8)50% rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    color: orange;
+    font-size: 22px;
+    background-color: white;
+    margin: 2px;
+    border-radius: 10px;
+    padding: 8px;
+
+}
+.form input{
+width: 240px;
+height: 35px;   
+background: transparent;
+border-bottom: 1px solid orange;
+border-top: none;
+border-right: none;
+border-left: none;
+color: #fff;
+font-size: 15px;
+letter-spacing: 1px;
+margin-top: 30px;
+font-family: sans-serif;
+
+}
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+
+}
+.btnn:hover{
+    background: #fff;
+    color: orange;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+.link a{
+    text-decoration: none;
+    color: #ff7200;
+    text-align: center;
+
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icon a{
+text-decoration: none;
+color: #fff;
+}
+
+.icon ion-icon{
+    color: #fff;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+
+}
+.icon ion-icon:hover{
+    color: #ff7200;
+
+}
